@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  width: 800px;
+}
+
+#total {
+  width: 440px;
+  background-color: #f1f8fd;
+  border-radius: 3px;
+  margin: auto;
+}
+
+.container {
+  width: 350px;
+  margin: 30px auto;
+}
+
+h1 {
+  font: bold 24px var(--font-family);
+  text-transform: uppercase;
+  line-height: 28px;
+  color: #4f4f4f;
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.container .label-design {
+  font: bold 14px var(--font-family);
+  letter-spacing: 2px;
+  line-height: 28px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+
+.container .input-design {
+  width: 96%;
+  padding: 15px 0 15px 14px;
+  border: 1px solid #d8d8d8;
+  outline: none;
+  border-radius: 3px;
+  background-color: #fbfdfe;
+}
+
+.input-design ::placeholder {
+  font: 300 18px var(--font-family);
+  color: #555555;
+}
+
+.justify {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#remember {
+  font: bold 14px var(--font-family);
+  line-height: 28px;
+  color: #8b8b8b;
+}
+
+#forgot {
+  text-decoration: none;
+  font: bold 14px var(--font-family);
+  line-height: 28px;
+  color: #04a9f4;
+  text-align: right;
+}
+
+#sign-in {
+  width: 100%;
+  font: bold 22px var(--font-family);
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.2));
+  padding: 15px 0;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  background-color: #0796d7;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 #0074aa;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 36px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font: bold 14px var(--font-family);
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#facebook {
+  background-color: #3161a1;
+  padding: 12px 40px;
+}
+
+#twitter {
+  margin-left: 15px;
+  padding: 12px 47px;
+  background-color: #00a9f3;
+}
